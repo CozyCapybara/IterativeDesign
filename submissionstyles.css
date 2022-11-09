@@ -1,0 +1,116 @@
+* {
+  font-family: Roboto Condensed;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  li {
+    font-size: 20px;
+    line-height: 45px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+.section-header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  text-decoration: underline;
+  background-color: #1CEAD8;
+  padding: 1rem;
+  margin-bottom:15px;
+}
+
+
+.novig-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.novig-desc p {
+  max-width: 800px;
+}
+
+.novig-desc img {
+  margin-top: 20px;
+  width: 800px;
+}
+
+.parts {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  column-gap: 50px;
+}
+
+.section {
+  max-width: 800px;
+}
+
+.section-label {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+.wireframe-photo {
+  max-width: 800px;
+}
+
+.sketch-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  row-gap: 10px;
+}
+
+.img-group {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  column-gap: 50px;
+  justify-content: center;
+}
+
+.img-group img {
+  max-width: 600px;
+}
+
+.sketch-container img {
+  max-width: 800px;
+}
+
+
+
+.sketch-label {
+  font-weight: 500;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+  
